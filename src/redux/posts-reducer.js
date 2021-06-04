@@ -83,6 +83,7 @@ export default postsReducer;
 
 export const setAllPostsThunkCreator = () => {
   return (dispatch) => {
+    dispatch(toggleIsFetching(true));
     const p = new Promise((resolve) => {
       postsAPI.getAllPosts()
       .then((res) => {
@@ -91,6 +92,7 @@ export const setAllPostsThunkCreator = () => {
     })
     p.then((posts) => {
       dispatch(setAllPosts(posts))
+      dispatch(toggleIsFetching(false));
     })
   }
 }

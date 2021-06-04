@@ -16,7 +16,6 @@ class PostsContainer extends Component  {
 
   AddPost = (inputValue, textareaValue) => {
     const newId = this.props.allPosts.length + 2;
-    console.log("newId", newId)
     const post = {
       title: inputValue,
       body: textareaValue,
