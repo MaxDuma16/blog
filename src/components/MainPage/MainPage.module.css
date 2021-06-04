@@ -1,0 +1,20 @@
+.mainPage {
+  display:  flex;
+  padding: 10px;
+  background-color: rgb(240, 210, 171);
+  min-height: 100vh;
+}
+
+.PostsContainerWrapper {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.postsTitle {
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 25px;
+}

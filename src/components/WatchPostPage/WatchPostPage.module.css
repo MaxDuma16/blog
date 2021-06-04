@@ -1,0 +1,129 @@
+.WatchPostPageWrapper {
+  background-color: #cec3aa;
+}
+
+.watchPostWrapper {
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.postContainer {
+  background-color: #aca38f;
+  width: 500px;
+  border-radius: 20px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.titleWrapper {
+  margin: 10px 0 30px 0;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.titleBody {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.titleFooter {
+  margin: 15px 0;
+}
+
+.EditFormFormWrapper {
+  padding-top: 28px;
+  height: 100vh;
+}
+
+.btnCancelWrapper {
+  display: flex;
+  justify-content: center;
+  padding-left: 280px;
+  margin-bottom: 10px;
+}
+
+.btnEditWrapper {
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 350px;
+  margin-bottom: 10px;
+}
+
+.btnDeleteWrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+  margin-bottom: -5px;
+}
+
+.btn {
+  margin: 10px 0 10px 60px;
+  height: 25px;
+  background-color: #2d88ff;
+  border-radius: 10px;
+  border: 0;
+  color: #e3e5ec;
+  width: 60px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #6b8ebb;
+}
+
+.btnDelete {
+  margin: 10px 0 10px 60px;
+  height: 25px;
+  background-color: #e99999;
+  border-radius: 10px;
+  border: 0;
+  color: #fff;
+  width: 60px;
+  cursor: pointer;
+}
+
+.btnDelete:hover {
+  background-color: red;
+}
+
+.btnRedirectToMainWrapper {
+  padding: 50px 0 0 30px;
+}
+
+.btnRedirectToMain {
+  height: 35px;
+  margin: 10px;
+  background-color: #2d88ff;
+  border-radius: 10px;
+  border: 0;
+  color: #fff;
+  width: 70px;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.btnRedirectToMain:hover {
+  background-color: #6b8ebb;
+}
+
+.addCommentWrapper {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.commentsWrapper {
+  text-align: left;
+  background-color: rgb(187, 179, 161);
+  color: #e3e5ec;
+  border-radius: 10px;
+}
+
+.postTitle {
+  font-size: 30px;
+  font-weight: 600;
+}
+

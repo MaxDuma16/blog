@@ -1,0 +1,49 @@
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textarea {
+  display: block;
+  width: 330px;
+  padding: 5px 20px;
+  background-color: #e4e6eb;
+  overflow: hidden;
+  border-radius: 20px;
+  border: 0;
+  font-size: 15px;
+  resize: none;
+}
+
+.textarea:focus {
+  outline: 0;
+}
+
+.btnAddComment {
+  margin: 15px;
+  height: 35px;
+  background-color: #2d88ff;
+  border-radius: 10px;
+  border: 0;
+  color: #e3e5ec;
+  width: 110px;
+  cursor: pointer;
+}
+
+.btnAddComment:hover {
+  background-color: #6b8ebb;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.error {
+  margin: 10px 0;
+  color: red;
+  font-size: 20px;
+  border: 2px solid red;
+  padding: 7px;
+}

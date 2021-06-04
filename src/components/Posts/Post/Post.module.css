@@ -1,0 +1,43 @@
+.postWrapper {
+  width: 400px;
+  margin: 15px auto;
+  padding: 10px;
+  color: black;
+  background-color: antiquewhite;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.titleWrapper {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.bodyWrapper {
+  margin: 3px 0;
+  font-style: 12px;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+}
+
+.btnWrapper {
+  display: flex;
+  justify-content: flex-end ;
+}
+
+.btn {
+  height: 25px;
+  background-color: #e99999;
+  border-radius: 10px;
+  border: 0;
+  color: #fff;
+  width: 60px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: red;
+}
